@@ -197,7 +197,7 @@ mod tests {
                     let head = "HTTP/1.1 200 OK\r\nContent-Length: 10\r\nConnection: close\r\n\r\n";
                     sock.write_all(head.as_bytes()).unwrap();
                     for i in 0..10 {
-                        let pause = if gap && i == 1 { 300 } else { 100 };
+                        let pause = if gap && i == 1 { 1500 } else { 50 };
                         if i > 0 {
                             std::thread::sleep(Duration::from_millis(pause));
                         }
@@ -215,7 +215,7 @@ mod tests {
     #[tokio::test]
     async fn stream_client_idle_timeout() {
         let addr = trickle_server();
-        let client = build_stream_client(Duration::from_millis(200));
+        let client = build_stream_client(Duration::from_millis(600));
         let read_all = |p: &'static str| {
             let rb = client.get(format!("http://{addr}{p}"));
             async move {
