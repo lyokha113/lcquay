@@ -9,7 +9,7 @@ without the console, without `aws ecr` incantations, without leaving the termina
 
 [![CI](https://github.com/lyokha113/lcquay/actions/workflows/ci.yml/badge.svg)](https://github.com/lyokha113/lcquay/actions/workflows/ci.yml)
 [![Release](https://img.shields.io/github/v/release/lyokha113/lcquay?sort=semver)](https://github.com/lyokha113/lcquay/releases)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: MIT OR Apache-2.0](https://img.shields.io/badge/license-MIT%20OR%20Apache--2.0-blue.svg)](#license)
 ![Platforms](https://img.shields.io/badge/platforms-macOS%20%7C%20Linux-informational)
 
 <img src="assets/01-browse.png" alt="LCQuay main screen: registries, a repository tree, images and the overview of the selected image" width="900">
@@ -375,4 +375,13 @@ let a secret reach a log line or the screen.
 
 ## License
 
-[MIT](LICENSE) © lyokha113
+Licensed under either of
+
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE))
+- MIT license ([LICENSE-MIT](LICENSE-MIT))
+
+at your option.
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion
+in this work by you, as defined in the Apache-2.0 license, shall be dual licensed as above,
+without any additional terms or conditions.
