@@ -1,4 +1,3 @@
-use std::os::unix::fs::PermissionsExt;
 use std::path::Path;
 use std::time::{Duration, Instant};
 
@@ -38,8 +37,21 @@ impl Drop for PathGuard {
 
 fn script(dir: &Path, name: &str, body: &str) -> String {
     let p = dir.join(name);
-    std::fs::write(&p, format!("#!/bin/sh\n{body}\n")).unwrap();
-    std::fs::set_permissions(&p, std::fs::Permissions::from_mode(0o755)).unwrap();
+    // Written by a child `sh`, never through a file descriptor of this process: a parallel test's
+    // fork would inherit that descriptor and make our own exec fail with ETXTBSY (Linux).
+    let mut sh = std::process::Command::new("sh")
+        .args(["-c", "cat > \"$1\" && chmod 755 \"$1\"", "sh"])
+        .arg(&p)
+        .stdin(std::process::Stdio::piped())
+        .spawn()
+        .unwrap();
+    std::io::Write::write_all(
+        sh.stdin.as_mut().unwrap(),
+        format!("#!/bin/sh\n{body}\n").as_bytes(),
+    )
+    .unwrap();
+    drop(sh.stdin.take());
+    assert!(sh.wait().unwrap().success());
     p.to_str().unwrap().to_string()
 }
 
