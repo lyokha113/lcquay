@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&f)
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────────────────────────┐
+│company                   ││api-svc              1││    Tag                 Pushed UTC↓         Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.2.0               2024-06-17 09:40    210MB never           │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────────────────────────┘
+┌ Image 0.2.0 ─ 1 Overview  2 Layers  3 Config  4 History  5 Raw ──────────────────────────────────────────────────────┐
+│Platforms ([ ] to select)                                                                                             │
+│  linux/amd64      sha256:cccccccccccc      500B                                                                      │
+│> linux/arm64      sha256:dddddddddddd      500B                                                                      │
+│                                                                                                                      │
+│Layers of linux/arm64                                                                                                 │
+│  1  sha256:111111111111    29.0MB  application/vnd.docker.image.rootfs.diff.tar.gzip                                 │
+│  2  sha256:222222222222     181MB  application/vnd.docker.image.rootfs.diff.tar.gzip                                 │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  1-5 tabs  [ ] platform  y copy  C copy  P pull  r refresh  p push  e config  ? help  q quit

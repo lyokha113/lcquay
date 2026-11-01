@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&f)
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────────────────────────┐
+│company                   ││api-svc              2││    Tag                 Pushed UTC↓         Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0-dev           2024-06-17 09:40    210MB never           │
+│                          ││                      ││    0.0.9               2024-05-01 10:00    150MB 2024-06-10 08:00│
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────────────────────────┘
+┌ Image 0.1.0-dev ─ 1 Overview  2 Layers  3 Config  4 History  5 Raw ──────────────────────────────────────────────────┐
+│Ref        123456789012.dkr.ecr.us-┌ Theme ───────────────────────────────────────┐                                   │
+│Tags       0.1.0-dev               │ › Maple Dark                                 │                                   │
+│Digest     sha256:aaaaaaaaaaaaaaaaa│   Maple Dark Black (terminal background)     │                                   │
+│                                   │   Tokyo Night                                │                                   │
+│Status     active                  │   Tokyo Night Black (terminal background)    │                                   │
+│Media      application/vnd.docker.d└──────────────────────────────────────────────┘                                   │
+│Size*      210MB                                                                                                      │
+│Platform   linux/amd64                                                                                                │
+│Created    2024-06-17 09:38 UTC                                                                                       │
+│                                                                                                                      │
+│Pushed     2024-06-17 09:40 UTC                                                                                       │
+│Pulled≈    never                                                                                                      │
+│                                                                                                                      │
+│Local      ✓ present (88d90c6be1e0)                                                                                   │
+│Attached   0                                                                                                          │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓ preview  Enter save  Esc cancel

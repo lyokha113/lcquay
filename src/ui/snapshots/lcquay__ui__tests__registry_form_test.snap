@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc ─────────────────────────────┐
+│company                   ││api-svc               ││                                              │
+│mirror                   !││ttl                   ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│       ┌ Registry company ────────────────────────────────────────────────────────────────┐       │
+│       │ Id                 company▏                                                      │       │
+│       │ Type               ‹ ecr ›  ecr · ecr-public · oci                               │       │
+│       │ Account            123456789012                                                  │       │
+│       │ Region             us-west-2                                                     │       │
+│       │ Profile              empty = default chain                                       │       │
+└───────│ Endpoint override    https://123456789012.dkr.ecr.us-west-2.amazonaws.com (auto) │───────┘
+┌ Regist│ Ref host override    empty = the endpoint host                                   │───────┐
+│Endpoin│ Pinned             api-svc, eng/api/fo                                           │       │
+│Provide│                                                                                  │       │
+│Auth   │ Test                                                                             │       │
+│Invento│  ✓ config valid                                                                  │       │
+│Caps   │  ✓ credentials         arn:aws:iam::123456789012:user/ci-robot · 240 ms          │       │
+│       │  ✓ endpoint reachable  HTTP 401 · 182 ms                                         │       │
+│       │  ✗ registry login      unauthorized · 95 ms                                      │       │
+│       │  · list repositories   skipped                                                   │       │
+│       │  Not working — save anyway with Ctrl-S                                           │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Tab/↑↓ field  ←→ type/auth  Ctrl-T test  Ctrl-S save  Esc cancel

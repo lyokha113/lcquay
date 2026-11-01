@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              1││    Tag                 Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0-dev          10.0MB never           │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│       ┌ Pull from company ───────────────────────────────────────────────────────────────┐       │
+│       │Ref       123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc:0.1.0-dev          │       │
+│       │Digest    sha256:aaaaaaaaaaaa…   Platform linux/amd64                             │       │
+│       │Size      10.0MB compressed · 8 layers   Created 2024-06-17 09:38 UTC             │       │
+│       │Local     ✓ present (88d90c6be1e0)                                                │       │
+│       │                                                                                  │       │
+└───────│Downloading  ██████████████████░░░░░░░░░░  6.5MB / 10.0MB  65%                    │───────┘
+┌ Image │             3.1 MB/s · ETA 1s · elapsed 4s                                       │───────┐
+│Ref    │                                                                                  │       │
+│Tags   │  222222222222  ↓ downloading █████████░░░░   1.5MB/2.0MB                         │       │
+│Digest │  333333333333  ↓ downloading ████░░░░░░░░░   500KB/1.5MB                         │       │
+│       │  444444444444  · waiting                                                         │       │
+│Status │  555555555555  · waiting                                                         │       │
+│Media  │  666666666666  ⇣ extracting                        800KB                         │       │
+│Size*  │  111111111111  ✓ done                              3.0MB                         │       │
+│Platfor│  …2 more                                                                         │       │
+│Created└ Enter hide  Esc cancel ──────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+│Pushed     2024-06-17 09:40 UTC                                                                   │
+│Pulled≈    never                                                                                  │
+│                                                                                                  │
+│Local      ✓ present (88d90c6be1e0)                                                               │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Enter hide  Esc cancel

@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              1││    Tag                 Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0-dev          10.0MB never           │
+│       ┌ Copy → 123456789012.dkr.ecr.us-west-2.amazonaws.com/new/x:0.1.0-dev ─────────────┐       │
+│       │repository: new/x▏                                                                │       │
+│       │                                                                                  │       │
+│       │new repository new/x                                                              │       │
+│       │not in the repository list — ECR rejects unknown repositories; registry:2 / Harbor│       │
+│       │create it                                                                         │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+└───────│                                                                                  │───────┘
+┌ Image │                                                                                  │───────┐
+│Ref    │                                                                                  │       │
+│Tags   │                                                                                  │       │
+│Digest │                                                                                  │       │
+│       │                                                                                  │       │
+│Status │                                                                                  │       │
+│Media  │                                                                                  │       │
+│Size*  │                                                                                  │       │
+│       │                                                                                  │       │
+│Pushed │                                                                                  │       │
+│Pulled≈│                                                                                  │       │
+│       │                                                                                  │       │
+│Local  └──────────────────────────────────────────────────────────────────────────────────┘       │
+│Attached   loading…                                                                               │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ type to filter or name a new repo  ↑↓ move  Enter select  Esc back

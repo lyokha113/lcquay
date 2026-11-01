@@ -1,0 +1,34 @@
+---
+source: src/ui/mod.rs
+assertion_line: 2120
+expression: out
+---
+┌ Reg┌ Delete from app ───────────────────────────────────────────────────────────────────────┐────┐
+│comp│repository contains an unreadable/archived index; nothing can be deleted safely         │    │
+│mirr│                                                                                        │    │
+│    │                                                                                        │8:00│
+│    │                                                                                        │    │
+│    │                                                                                        │    │
+│    │                                                                                        │    │
+│    │                                                                                        │    │
+│    │                                                                                        │    │
+│    │                                                                                        │    │
+│    │                                                                                        │    │
+└────│                                                                                        │────┘
+┌ Ima│                                                                                        │────┐
+│Ref │                                                                                        │    │
+│Tags│                                                                                        │    │
+│Dige│                                                                                        │    │
+│    │                                                                                        │    │
+│Stat│                                                                                        │    │
+│Medi│                                                                                        │    │
+│Size│                                                                                        │    │
+│Plat│                                                                                        │    │
+│Crea│                                                                                        │    │
+│    │                                                                                        │    │
+│Push│                                                                                        │    │
+│Pull│                                                                                        │    │
+│    │                                                                                        │    │
+│Loca│                                                                                        │    │
+└────└────────────────────────────────────────────────────────────────────────────────────────┘────┘
+ Esc close

@@ -1,0 +1,34 @@
+---
+source: src/ui/mod.rs
+assertion_line: 2228
+expression: out
+---
+┌ Reg┌ Delete result ─────────────────────────────────────────────────────────────────────────┐────┐
+│comp│2 done  1 failed  1 skipped  1 uncertain  1 not attempted                               │    │
+│mirr│                                                                                        │    │
+│    │manifest cccccccccccc  failed: ImageReferencedByManifestList: still referenced          │8:00│
+│    │manifest dddddddddddd  skipped: parent not deleted                                      │    │
+│    │tag 1 (eeeeeeeeeeee)  uncertain: network error: timed out — tag gone                    │    │
+│    │manifest ffffffffffff  not attempted                                                    │    │
+│    │                                                                                        │    │
+│    │run stopped: network                                                                    │    │
+│    │                                                                                        │    │
+│    │                                                                                        │    │
+└────│                                                                                        │────┘
+┌ Ima│                                                                                        │────┐
+│Ref │                                                                                        │    │
+│Tags│                                                                                        │    │
+│Dige│                                                                                        │    │
+│    │                                                                                        │    │
+│Stat│                                                                                        │    │
+│Medi│                                                                                        │    │
+│Size│                                                                                        │    │
+│Plat│                                                                                        │    │
+│Crea│                                                                                        │    │
+│    │                                                                                        │    │
+│Push│                                                                                        │    │
+│Pull│                                                                                        │    │
+│    │                                                                                        │    │
+│Loca│                                                                                        │    │
+└────└────────────────────────────────────────────────────────────────────────────────────────┘────┘
+ Enter close

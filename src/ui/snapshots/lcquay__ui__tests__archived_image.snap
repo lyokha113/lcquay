@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&f)
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────────────────────────┐
+│company                   ││api-svc              1││    Tag                 Pushed UTC↓         Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● old archived        2024-06-17 09:40    5.0MB never           │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────────────────────────┘
+┌ Image old ─ 1 Overview  2 Layers  3 Config  4 History  5 Raw ────────────────────────────────────────────────────────┐
+│content unavailable while archived                                                                                    │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  1-5 tabs  y copy  r refresh  p push  / filter  o/O sort  a glob    e config  ? help  q quit

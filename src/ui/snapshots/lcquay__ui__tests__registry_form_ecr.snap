@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc ─────────────────────────────┐
+│company                   ││api-svc               ││                                              │
+│mirror                   !││ttl                   ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│       ┌ Registry company ────────────────────────────────────────────────────────────────┐       │
+│       │ Id                 company▏                                                      │       │
+│       │ Type               ‹ ecr ›  ecr · ecr-public · oci                               │       │
+└───────│ Account            123456789012                                                  │───────┘
+┌ Regist│ Region             us-west-2                                                     │───────┐
+│Endpoin│ Profile              empty = default chain                                       │       │
+│Provide│ Endpoint override    https://123456789012.dkr.ecr.us-west-2.amazonaws.com (auto) │       │
+│Auth   │ Ref host override    empty = the endpoint host                                   │       │
+│Invento│ Pinned             api-svc, eng/api/fo                                           │       │
+│Caps   │                                                                                  │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Tab/↑↓ field  ←→ type/auth  Ctrl-T test  Ctrl-S save  Esc cancel

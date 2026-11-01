@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: "render_to(100, 30, &login_marks().s)"
+---
+┌ Registries ──────────────┐┌ Repos · loading… ────┐┌ Images ──────────────────────────────────────┐
+│company           ✓ 11h40m││loading…              ││                                              │
+│public                   ✓││                      ││                                              │
+│mirror                   !││                      ││                                              │
+│harbor                   …││                      ││                                              │
+│both            ✓ 11h40m !││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────┘
+┌ Registry company ────────────────────────────────────────────────────────────────────────────────┐
+│Endpoint   https://123456789012.dkr.ecr.us-west-2.amazonaws.com/                                  │
+│Provider   ecr                                                                                    │
+│Auth       ecr                                                                                    │
+│Login      expires 2026-10-29 23:12 UTC (11h40m)                                                  │
+│Inventory  complete                                                                               │
+│Caps       pushed-at, last-pulled, delete-tag, delete-manifest                                    │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  Enter open  L login  r refresh  t theme        e config  ? help  q quit

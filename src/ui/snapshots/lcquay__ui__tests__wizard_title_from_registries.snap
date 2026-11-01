@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos · loading… ────┐┌ Images ──────────────────────────────────────┐
+│company                   ││loading…              ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│       ┌ Push to company → 123456789012.dkr.ecr.us-west-2.amazonaws.com/?:? ──────────────┐       │
+│       │filter: ▏                                                                         │       │
+│       │Image         Tag                                       Created UTC           Size│       │
+│       │88d90c6be1e0  api-svc:dev                               —                    210MB│       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+└───────│                                                                                  │───────┘
+┌ Regist│                                                                                  │───────┐
+│Endpoin│                                                                                  │       │
+│Provide│                                                                                  │       │
+│Auth   │                                                                                  │       │
+│Invento│                                                                                  │       │
+│Caps   │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ type to filter  ↑↓ move  Enter select  Esc cancel

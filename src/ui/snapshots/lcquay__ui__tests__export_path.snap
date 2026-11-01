@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              1││    Tag                 Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0-dev          10.0MB never           │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+└─┌ Export from company ─────────────────────────────────────────────────────────────────────────┐─┘
+┌ │Ref       123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc:0.1.0-dev                      │─┐
+│R│Platform  linux/amd64                                                                         │ │
+│T│Size      10.0MB compressed                                                                   │ │
+│D│Path      ~/Downloads/api-svc_0.1.0-dev.tarx▏                                                 │ │
+│ └ type a path  Enter export  Esc back ─────────────────────────────────────────────────────────┘ │
+│Status     active                                                                                 │
+│Media      application/vnd.docker.distribution.manifest.v2+json                                   │
+│Size*      10.0MB                                                                                 │
+│Platform   linux/amd64                                                                            │
+│Created    2024-06-17 09:38 UTC                                                                   │
+│                                                                                                  │
+│Pushed     2024-06-17 09:40 UTC                                                                   │
+│Pulled≈    never                                                                                  │
+│                                                                                                  │
+│Local      ✓ present (88d90c6be1e0)                                                               │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ type a path  Enter export  Esc back

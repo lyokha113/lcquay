@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              2││    Tag                 Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0                  1B never           │
+│                          ││                      ││    0.2.0                  1B never           │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────┘
+┌ Image 0.1.0 ─ 1 O┌ Mark tags by pattern ──────────────────────────────────────┐──────────────────┐
+│Ref        1234567│Pattern  0.1.*▏                                             │                  │
+│Tags       0.1.0  │matches 1 tag                                               │                  │
+│Digest     sha256:│                                                            │aa                │
+│                  │* any run, ? one char; matched against the whole tag        │                  │
+│Status     active └────────────────────────────────────────────────────────────┘                  │
+│Media      application/vnd.docker.distribution.manifest.v2+json                                   │
+│Size*      1B                                                                                     │
+│                                                                                                  │
+│Pushed     2024-06-17 09:40 UTC                                                                   │
+│Pulled≈    never                                                                                  │
+│                                                                                                  │
+│Local      ✓ present (88d90c6be1e0)                                                               │
+│Attached   loading…                                                                               │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ type a pattern  Enter add to marks  Esc cancel

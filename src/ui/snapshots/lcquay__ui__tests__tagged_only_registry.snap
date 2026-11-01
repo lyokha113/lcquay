@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&f)
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: team/api · 14:02 UTC · tagged only ──────────────────────┐
+│company                   ││team/api             2││    Tag↓                                                     Size*│
+│mirror                    ││                      ││    2.0                                                          —│
+│                          ││                      ││    1.0, latest                                                  —│
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────────────────────────┘
+┌ Image 2.0 ─ 1 Overview  2 Layers  3 Config  4 History  5 Raw ────────────────────────────────────────────────────────┐
+│Ref        registry.example.com/team/api:2.0                                                                          │
+│Tags       2.0                                                                                                        │
+│Digest     sha256:eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee                                    │
+│                                                                                                                      │
+│Status     active                                                                                                     │
+│Media      application/vnd.docker.distribution.manifest.v2+json                                                       │
+│Size*      —                                                                                                          │
+│Platform   linux/amd64                                                                                                │
+│                                                                                                                      │
+│Pushed     2024-06-17 09:40 UTC                                                                                       │
+│                                                                                                                      │
+│Local      not present                                                                                                │
+│Attached   loading…                                                                                                   │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  1-5 tabs  [ ] platform  y copy  C copy  P pull  r refresh  p push  e config  ? help  q quit

@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&f)
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · loading… 3 pages ──────────────────────────────┐
+│company                   ││api-svc               ││loading…                                                          │
+│                          ││ttl                   ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────────────────────────┘
+┌ Repo api-svc ────────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│Repository api-svc                                                                                                    │
+│Created    2024-01-02 03:04 UTC                                                                                       │
+│Endpoint   https://123456789012.dkr.ecr.us-west-2.amazonaws.com/                                                      │
+│Provider   ecr                                                                                                        │
+│Auth       ecr                                                                                                        │
+│Inventory  complete                                                                                                   │
+│Caps       pushed-at, last-pulled, delete-tag, delete-manifest                                                        │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  1-5 tabs  y copy  r refresh  / filter  o/O sort  Ctrl-d/u scroll   e config  ? help  q quit

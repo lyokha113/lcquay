@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: "render_to(100, 30, &f.s)"
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              1││    Tag                 Size* Pulled≈ UTC     │
+│                          ││ttl                   ││    0.1.0-dev           210MB never           │
+│                          ││                      ││                                              │
+│       ┌ Push to company → 123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc:? ────────┐       │
+│       │filter: ▏                                                                         │       │
+│       │Image         Tag                                       Created UTC           Size│       │
+│       │88d90c6be1e0  api-svc:dev                               2026-10-28 09:15     210MB│       │
+│       │b3f1d2c4e5f6  123456789012.dkr.ecr.us-west-2.amazonaw…  2026-10-20 18:02     1.8GB│       │
+│       │0a1b2c3d4e5f  <none>                                    —                   12.3KB│       │
+│       │                                                                                  │       │
+└───────│                                                                                  │───────┘
+┌ Repo a│                                                                                  │───────┐
+│Reposit│                                                                                  │       │
+│Created│                                                                                  │       │
+│Images │                                                                                  │       │
+│Endpoin│                                                                                  │       │
+│Provide│                                                                                  │       │
+│Auth   │                                                                                  │       │
+│Invento│                                                                                  │       │
+│Caps   │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ type to filter  ↑↓ move  Enter select  Esc cancel

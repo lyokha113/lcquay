@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc ─────────────────────────────┐
+│company                   ││api-svc               ││                                              │
+│mirror                   !││ttl                   ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│       ┌ Registry company ────────────────────────────────────────────────────────────────┐       │
+│       │ Id                 company2▏                                                     │       │
+│       │ Type               ‹ ecr ›  ecr · ecr-public · oci                               │       │
+└───────│ Account            123456789012                                                  │───────┘
+┌ Regist│ Region             us-west-┌────────────────────────┐                            │───────┐
+│Endpoin│ Profile              empty │  discard changes? y/n  │                            │       │
+│Provide│ Endpoint override    https:└────────────────────────┘west-2.amazonaws.com (auto) │       │
+│Auth   │ Ref host override    empty = the endpoint host                                   │       │
+│Invento│ Pinned             api-svc, eng/api/fo                                           │       │
+│Caps   │                                                                                  │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ y yes  n/Esc no

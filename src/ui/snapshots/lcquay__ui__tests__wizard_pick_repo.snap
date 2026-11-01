@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: "render_to(100, 30, &f.s)"
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              1││    Tag                 Size* Pulled≈ UTC     │
+│                          ││ttl                   ││    0.1.0-dev           210MB never           │
+│                          ││                      ││                                              │
+│       ┌ Push to company → 123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc:? ────────┐       │
+│       │Target repository                                                                 │       │
+│       │api-svc                                                                           │       │
+│       │ttl                                                                               │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+└───────│                                                                                  │───────┘
+┌ Repo a│                                                                                  │───────┐
+│Reposit│                                                                                  │       │
+│Created│                                                                                  │       │
+│Images │                                                                                  │       │
+│Endpoin│                                                                                  │       │
+│Provide│                                                                                  │       │
+│Auth   │                                                                                  │       │
+│Invento│                                                                                  │       │
+│Caps   │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓ move  Enter select  Esc back

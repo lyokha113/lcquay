@@ -1,0 +1,34 @@
+---
+source: src/ui/mod.rs
+expression: "render_to(100, 30, &f.s)"
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · loading… ──────────────────┐
+│company                   ││api-svc               ││loading…                                      │
+│                          ││ttl                   ││                                              │
+│                          ││                      ││                                              │
+│       ┌ Push to company → 123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc:0.1.1-dev ┐       │
+│       │push cancelled — uploaded layers may remain; the tag is unchanged unless the      │       │
+│       │manifest upload had completed                                                     │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+└───────│                                                                                  │───────┘
+┌ Repo a│                                                                                  │───────┐
+│Reposit│                                                                                  │       │
+│Created│                                                                                  │       │
+│Endpoin│                                                                                  │       │
+│Provide│                                                                                  │       │
+│Auth   │                                                                                  │       │
+│Invento│                                                                                  │       │
+│Caps   │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       │                                                                                  │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Enter close
+ push cancelled — uploaded layers may remain; the tag is unchanged unless the manifest upload had co

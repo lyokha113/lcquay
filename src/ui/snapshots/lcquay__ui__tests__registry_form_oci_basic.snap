@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc ─────────────────────────────┐
+│company                   ││api-svc               ││                                              │
+│mirror                   !││ttl                   ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│       ┌ New registry ────────────────────────────────────────────────────────────────────┐       │
+│       │ Id                 ghcr▏                                                         │       │
+│       │ Type               ‹ oci ›  ecr · ecr-public · oci                               │       │
+│       │ Endpoint           https://ghcr.io                                               │       │
+└───────│ Ref host override    empty = the endpoint host                                   │───────┘
+┌ Regist│ Auth               ‹ basic ›  anonymous · docker-config · basic                  │───────┐
+│Endpoin│ Username           lyo                                                           │       │
+│Provide│ Password env       PATH  env var name; the password is never stored              │       │
+│Auth   │ Repos              lyo/app, lyo/tools  needed when the registry has no catalog   │       │
+│Invento│ Trusted realms                                                                   │       │
+│Caps   │ Pinned                                                                           │       │
+│       │                                                                                  │       │
+│       └──────────────────────────────────────────────────────────────────────────────────┘       │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Tab/↑↓ field  ←→ type/auth  Ctrl-T test  Ctrl-S save  Esc cancel

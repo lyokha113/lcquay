@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&loaded())
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────────────────────────┐
+│company                   ││api-svc              2││    Tag                 Pushed UTC↓         Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0-dev           2024-06-17 09:40    210MB never           │
+│                          ││                      ││    0.0.9               2024-05-01 10:00    150MB 2024-06-10 08:00│
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────────────────────────┘
+┌ Image 0.1.0-dev ─ 1 Overview  2 Layers  3 Config  4 History  5 Raw ──────────────────────────────────────────────────┐
+│Ref        123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc:0.1.0-dev                                             │
+│Tags       0.1.0-dev                                                                                                  │
+│Digest     sha256:aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa                                    │
+│                                                                                                                      │
+│Status     active                                                                                                     │
+│Media      application/vnd.docker.distribution.manifest.v2+json                                                       │
+│Size*      210MB                                                                                                      │
+│Platform   linux/amd64                                                                                                │
+│Created    2024-06-17 09:38 UTC                                                                                       │
+│                                                                                                                      │
+│Pushed     2024-06-17 09:40 UTC                                                                                       │
+│Pulled≈    never                                                                                                      │
+│                                                                                                                      │
+│Local      ✓ present (88d90c6be1e0)                                                                                   │
+│Attached   0                                                                                                          │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  1-5 tabs  y copy  C copy  P pull  r refresh  p push  / filter      e config  ? help  q quit

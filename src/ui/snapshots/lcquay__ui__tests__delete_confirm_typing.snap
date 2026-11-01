@@ -1,0 +1,44 @@
+---
+source: src/ui/mod.rs
+assertion_line: 2163
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              2││    Tag                 Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0-dev           210MB never           │
+│    ┌ Delete from app ───────────────────────────────────────────────────────────────────────┐8:00│
+│    │Tags removed (1)                                                                        │    │
+│    │  1  aaaaaaaaaaaa                                                                       │    │
+│    │                                                                                        │    │
+│    │Manifests deleted (3)                                                                   │    │
+│    │  layer 0                                                                               │    │
+│    │    bbbbbbbbbbbb  2, 3  100MB                                                           │    │
+│    │    cccccccccccc  <untagged>  10.0MB                                                    │    │
+│    │  layer 1                                                                               │    │
+│    │    dddddddddddd  4  100MB                                                              │    │
+│    │                                                                                        │    │
+│    │Collateral tags (2)                                                                     │    │
+└────│  eeeeeeeeeeee  x, y                                                                    │────┘
+┌ Ima│                                                                                        │────┐
+│Ref │Excluded (4)                                                                            │    │
+│Tags│  111111111111  dependency unknown (manifest could not be read)                         │    │
+│Dige│  222222222222  child of kept index 333333333333                                        │    │
+│    │  444444444444  attached to kept manifest 555555555555                                  │    │
+│Stat│  666666666666  press w to delete the whole manifest                                    │    │
+│Medi│                                                                                        │    │
+│Size│Side effects (4)                                                                        │    │
+│Plat│  cccccccccccc becomes unreferenced (child of deleted index bbbbbbbbbbbb)               │    │
+│Crea│  referrer 777777777777 of dddddddddddd may remain or be removed by the registry        │    │
+│    │  fallback index sha256-dddd becomes stale                                              │    │
+│Push│  referrers of dddddddddddd unknown                                                     │    │
+│Pull│                                                                                        │    │
+│    │Totals  4 tags · 3 manifests · 210MB reported                                           │    │
+│Loca│                                                                                        │    │
+│Atta│                                                                                        │    │
+│    │                                                                                        │    │
+│    │Type app to confirm: ap▏                                                                │    │
+│    └────────────────────────────────────────────────────────────────────────────────────────┘    │
+│                                                                                                  │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ type the repo name  Enter delete  Esc back

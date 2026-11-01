@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&f)
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc ─────────────────────────────────────────────────┐
+│company                   ││api-svc               ││                                                                  │
+│mirror                   !││ttl                   ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+│                          ││                      ││                                                                  │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────────────────────────┘
+┌ Registry company ────────────────────────────────────────────────────────────────────────────────────────────────────┐
+│Registry   123456789012                                                                                               │
+│Account    111122223333                                                                                               │
+│Caller     arn:aws:sts::111122223333:assumed-role/dev/me                                                              │
+│Endpoint   https://123456789012.dkr.ecr.us-west-2.amazonaws.com/                                                      │
+│Provider   ecr                                                                                                        │
+│Auth       ecr                                                                                                        │
+│Inventory  complete                                                                                                   │
+│Caps       pushed-at, last-pulled, delete-tag, delete-manifest                                                        │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+│                                                                                                                      │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  Enter open  L login  r refresh  p push  c/n/x edit/new/remove      e config  ? help  q quit

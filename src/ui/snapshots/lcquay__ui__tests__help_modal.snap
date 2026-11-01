@@ -1,0 +1,43 @@
+---
+source: src/ui/mod.rs
+expression: shot(&f)
+---
+┌ Registries ──────┌ Help ─────────────────────────────────────────────────────────────────────────┐───────────────────┐
+│company           │Keys                                                                           │e* Pulled≈ UTC     │
+│mirror            │  ↑↓ / j k        move                                                         │MB never           │
+│                  │  Tab ← → / h l   switch pane (Enter opens; on a repo group ← → fold it)       │MB 2024-06-10 08:00│
+│                  │  1-5             detail tabs: Overview Layers Config History Raw              │                   │
+│                  │  [ ]             previous / next platform (multi-platform image)              │                   │
+│                  │  Ctrl-d / Ctrl-u scroll the detail pane                                       │                   │
+│                  │  L               docker login (ecr, ecr-public, basic)                        │                   │
+│                  │                  docker-config registries: run docker login yourself          │                   │
+│                  │  r               refresh the focused level and everything below               │                   │
+│                  │  p               push a local image to the selected registry                  │                   │
+│                  │  P               pull the selected image into local Docker                    │                   │
+│                  │  C               copy / retag the image to another repo or registry           │                   │
+│                  │  X               export the image to an OCI layout tarball                    │                   │
+│                  │  e               edit config in $VISUAL / $EDITOR, then reload                │                   │
+└──────────────────│  c / n / x       edit / add / remove a registry (Registries pane)             │───────────────────┘
+┌ Image 0.1.0-dev ─│  t               pick the colour theme (previewed live, saved on Enter)       │───────────────────┐
+│Ref        1234567│  =               mark a base image; = on another compares the two             │                   │
+│Tags       0.1.0-d│  space           mark / unmark all tags of the image (images pane)            │                   │
+│Digest     sha256:│  u               mark untagged images (registries that list them)             │                   │
+│                  │  a               mark tags by glob (* any, ? one char), adds to marks         │                   │
+│Status     active │  v               mark a range: v, move, v again (images pane)                 │                   │
+│Media      applica│  Esc             cancel the range, else the compare base, else clear marks    │                   │
+│Size*      210MB  │  d               delete preview (w whole manifest, type repo name to confirm);│                   │
+│Platform   linux/a│                  reopens a hidden running delete or its report                │                   │
+│Created    2024-06│  /               filter the focused list (Enter apply, Esc cancel)            │                   │
+│                  │  o / O           cycle sort column / reverse                                  │                   │
+│Pushed     2024-06│  y               copy reference (Raw tab: the displayed JSON)                 │                   │
+│Pulled≈    never  │  m               reveal masked values of this image                           │                   │
+│                  │  !               request log (↑↓ scroll, / filter, Esc close)                 │                   │
+│Local      ✓ prese│  ?               this help                                                    │                   │
+│Attached   0      │  q               quit (main screen)                                           │                   │
+│                  │  Ctrl-C          quit (anywhere)                                              │                   │
+│                  │                                                                               │                   │
+│                  │Caveats                                                                        │                   │
+│                  │  Size*    compressed size as reported by the registry, not storage use;       │                   │
+│                  │           shared layers are not de-duplicated.                                │                   │
+└──────────────────└───────────────────────────────────────────────────────────────────────────────┘───────────────────┘
+ ↑↓ scroll  Esc/? close  Ctrl-C quit

@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              1││    Tag                 Size* Pulled≈ UTC     │
+│mirror                   !││ttl                  0││  ● 0.1.0-dev          10.0MB never           │
+│       ┌ Copy → 123456789012.dkr.ecr.us-west-2.amazonaws.com/ttl:1.0 ─────────────────────┐       │
+│       │Source  123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc@sha256:aaaaaaaaaaaa… │       │
+│       │                                                                                  │       │
+│       │Uploading    ███████████████░░░░░░░░░░░░░  4.5MB / 8.0MB  56%                     │       │
+│       │             0.5 MB/s · ETA 7s · elapsed 4s                                       │       │
+│       │                                                                                  │       │
+│       │  111111111111  · waiting                                                         │       │
+│       │  222222222222  ↑ uploading █████████░░░░     1.5MB/2.0MB                         │       │
+└───────│  333333333333  ⇄ mounted                           1.5MB                         │───────┘
+┌ Image │  444444444444  ✓ exists                            1.0MB                         │───────┐
+│Ref    │  555555555555  ✓ done                              500KB                         │       │
+│Tags   │                                                                                  │       │
+│Digest │                                                                                  │       │
+│       │                                                                                  │       │
+│Status │                                                                                  │       │
+│Media  │                                                                                  │       │
+│Size*  │                                                                                  │       │
+│       │                                                                                  │       │
+│Pushed │                                                                                  │       │
+│Pulled≈│                                                                                  │       │
+│       │                                                                                  │       │
+│Local  └──────────────────────────────────────────────────────────────────────────────────┘       │
+│Attached   loading…                                                                               │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Enter hide  Esc cancel

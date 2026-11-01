@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: "render_to(100, 30, &f.s)"
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: ttl · 14:02 UTC ─────────────────────┐
+│company                   ││★ ttl                2││    Tag                 Size* Pulled≈ UTC     │
+│                          ││★ ghost      not found││    1                      1B never           │
+│                          ││  api-svc             ││    2                      1B never           │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+└──────────────────────────┘└──────────────────────┘└──────────────────────────────────────────────┘
+┌ Registry company ────────────────────────────────────────────────────────────────────────────────┐
+│Endpoint   https://123456789012.dkr.ecr.us-west-2.amazonaws.com/                                  │
+│Provider   ecr                                                                                    │
+│Auth       ecr                                                                                    │
+│Inventory  complete                                                                               │
+│Caps       pushed-at, last-pulled, delete-tag, delete-manifest                                    │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+│                                                                                                  │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ ↑↓/jk move  Tab/←→/hl pane  Enter open  L login  r refresh  p push         e config  ? help  q quit

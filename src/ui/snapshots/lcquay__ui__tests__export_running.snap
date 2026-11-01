@@ -1,0 +1,33 @@
+---
+source: src/ui/mod.rs
+expression: out
+---
+┌ Registries ──────────────┐┌ Repos ───────────────┐┌ Images: api-svc · 14:02 UTC ─────────────────┐
+│company                   ││api-svc              1││    Tag                 Size* Pulled≈ UTC     │
+│mirror                   !││ttl                   ││  ● 0.1.0-dev          10.0MB never           │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│                          ││                      ││                                              │
+│ ┌ Export from company ─────────────────────────────────────────────────────────────────────────┐ │
+│ │Ref       123456789012.dkr.ecr.us-west-2.amazonaws.com/api-svc:0.1.0-dev                      │ │
+│ │Platform  linux/amd64                                                                         │ │
+│ │Size      10.0MB compressed                                                                   │ │
+└─│Path      ~/Downloads/api-svc_0.1.0-dev.tar                                                   │─┘
+┌ │                                                                                              │─┐
+│R│Downloading  ████████░░░░░░░░░░░░░░░░░░░░  1.5MB / 5.0MB  30%                                 │ │
+│T│             0.5 MB/s · ETA 7s · elapsed 4s                                                   │ │
+│D│                                                                                              │ │
+│ │  111111111111  ↓ downloading ██████░░░░░░░   1.5MB/3.0MB                                     │ │
+│S│  222222222222  · waiting                                                                     │ │
+│M│  cccccccccccc  ✓ done                              7.0KB                                     │ │
+│S└ Enter hide  Esc cancel ──────────────────────────────────────────────────────────────────────┘ │
+│Platform   linux/amd64                                                                            │
+│Created    2024-06-17 09:38 UTC                                                                   │
+│                                                                                                  │
+│Pushed     2024-06-17 09:40 UTC                                                                   │
+│Pulled≈    never                                                                                  │
+│                                                                                                  │
+│Local      ✓ present (88d90c6be1e0)                                                               │
+└──────────────────────────────────────────────────────────────────────────────────────────────────┘
+ Enter hide  Esc cancel
