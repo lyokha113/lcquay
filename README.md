@@ -98,7 +98,7 @@ Pre-built binaries are attached to every [GitHub release](https://github.com/lyo
 
 ```sh
 # Apple Silicon; use x86_64-apple-darwin on Intel Macs
-VERSION=v0.1.0
+VERSION=v0.1.1
 curl -LO https://github.com/lyokha113/lcquay/releases/download/$VERSION/lcquay-$VERSION-aarch64-apple-darwin.tar.gz
 tar xzf lcquay-$VERSION-aarch64-apple-darwin.tar.gz
 sudo install lcquay-$VERSION-aarch64-apple-darwin/lcquay /usr/local/bin/
@@ -110,7 +110,7 @@ The binary is not notarized. If macOS blocks it, run
 ### Ubuntu / Debian (amd64)
 
 ```sh
-VERSION=0.1.0
+VERSION=0.1.1
 curl -LO https://github.com/lyokha113/lcquay/releases/download/v$VERSION/lcquay_${VERSION}-1_amd64.deb
 sudo apt install ./lcquay_${VERSION}-1_amd64.deb
 ```
